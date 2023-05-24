@@ -1,0 +1,53 @@
+
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar color="tertiary">
+      <ion-title>Settings</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">This is the settings content.</ion-content>
+</ion-menu>
+<div id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Clicker</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</div>
+
+<div>
+  <ion-img src="assets/icon/LogObject-icon.png" style="width: auto" height="140px" alt="back-logo"></ion-img>
+</div>
+<div class="underlay"></div>
+<div class="top">
+  <ion-toolbar class="transparent-toolbar-title">
+    <ion-title class="title-color">Area</ion-title>
+  </ion-toolbar>
+  <ion-list class="transparent-list">
+    <ion-item class="transparent-item">
+      <ion-select class="select-color" interface="popover" placeholder="Select Area">
+        <ion-select-option value="apples">Area1</ion-select-option>
+        <ion-select-option value="oranges">München</ion-select-option>
+        <ion-select-option value="bananas">Zürich</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <ion-content class="transparent-content">
+    <ion-list class="transparent-list" *ngFor="let item of phaenomens; let i = index">
+      <ion-item class="transparent-item">
+        <ion-label position="floating">{{ phaenomens[i] }}</ion-label>
+        <ion-input class="input-color" type="number" placeholder="Enter amount"></ion-input>
+        <ion-button slot="end" color="success">
+          <ion-icon name="remove-outline"></ion-icon>
+        </ion-button>
+        <ion-button slot="end" color="success">
+          <ion-icon name="add-outline"></ion-icon>
+        </ion-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</div>
+<div class="middle"></div>

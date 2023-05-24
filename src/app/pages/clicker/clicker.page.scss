@@ -1,0 +1,76 @@
+.top, .middle {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .underlay {
+    height: 5vh;
+    background-color: white;
+    margin-top: -10px;
+
+  }
+  
+  .top {
+    height: 55vh;
+    background: var(--ion-color-light-blue);
+    margin-top: -20px;
+  }
+  
+  .middle {
+    height: 20vh;
+    background:var(--ion-color-blue);
+    margin-top: -20px;
+  }
+
+  ion-toolbar.transparent-toolbar {
+    height: 8vh;
+    background-color: transparent;
+    --background: transparent;
+    --background-hover: rgba(255, 255, 255, 0.1); /* Change the hover color and opacity as needed */
+    --background-activated: rgba(255, 255, 255, 0.2); /* Change the activated color and opacity as needed */
+  }
+
+  ion-toolbar.transparent-toolbar-title {
+    height: 4vh;
+    background-color: transparent;
+    --background: transparent;
+    --background-hover: rgba(255, 255, 255, 0.1); /* Change the hover color and opacity as needed */
+    --background-activated: rgba(255, 255, 255, 0.2); /* Change the activated color and opacity as needed */
+  }
+
+  ion-list.transparent-list {
+    height: 8vh;
+    background-color: transparent;
+    --background: transparent;
+    --background-hover: rgba(255, 255, 255, 0.1); /* Change the hover color and opacity as needed */
+    --background-activated: rgba(255, 255, 255, 0.2); /* Change the activated color and opacity as needed */
+  }
+
+  ion-item.transparent-item {
+    height: 8vh;
+    background-color: transparent;
+    --background: transparent;
+    --background-hover: rgba(25, 18, 212, 0.1); /* Change the hover color and opacity as needed */
+    --background-activated: rgba(16, 38, 203, 0.2); /* Change the activated color and opacity as needed */
+  }
+
+  ion-content.transparent-content {
+    height: 37.2vh;
+    background-color: transparent;
+    --background: transparent;
+    --background-hover: rgba(25, 18, 212, 0.1); /* Change the hover color and opacity as needed */
+    --background-activated: rgba(16, 38, 203, 0.2); /* Change the activated color and opacity as needed */
+  }
+
+  ion-select.select-color {
+    color: black;
+  }
+
+  ion-title.title-color {
+    color: black;
+  }
+
+  ion-input.input-color {
+    color: black;
+  }
+
